@@ -10,7 +10,8 @@ void pascal_triangle(int rows) {
 		}
 		printf("\n");
 	}
-	setFGcolor(WHITE);
+	//setFGcolor(WHITE);
+	resetColor();
 }
 
 int biomial(int n, int k) {
