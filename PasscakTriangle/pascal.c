@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include "screen.h"
+//function definition for making the triangle
 void pascal_triangle(int rows) {
 	int i, k;
 	for (i = 0; i < rows; i++) {
@@ -10,9 +11,9 @@ void pascal_triangle(int rows) {
 		}
 		printf("\n");
 	}
-	setFGcolor(WHITE);
+	//setFGcolor(WHITE);
 }
-
+// function definition of n-select-k
 int biomial(int n, int k) {
 	return factorial(n) / factorial(k) / factorial(n - k);
 }
