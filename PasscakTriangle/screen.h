@@ -6,3 +6,4 @@ enum COLORS {BLACK=30, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE};
 void setFGcolor(int colorcode);
 void clearScreen(void);
 void gotoXY(int, int);
+void resetColor(void);

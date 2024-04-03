@@ -11,3 +11,7 @@ void gotoXY(int row, int col) {
 	printf("\x1b[%d;%dH", row, col);
 	fflush(stdout);
 }
+void resetColor(void) {
+	printf("/x1b[0m");
+	fflush(stdout);
+}
